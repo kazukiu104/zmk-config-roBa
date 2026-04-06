@@ -85,7 +85,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE  &mkp MB1  &mkp MB2           &kp BACKSPACE  &lt 2 DELETE                                          &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             label = "サーフェス";
         };
 
