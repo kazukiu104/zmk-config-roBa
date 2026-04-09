@@ -28,6 +28,19 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+
+// Layer Tap の反応を速くする設定
+// tapping-term-ms: タップとホールドの判定時間（ms）
+// flavor = "balanced": タップとホールドのバランスを改善
+// 150msに短縮してレイヤー切替を素早くする
+
+&lt {
+    flavor = "balanced";
+    tapping-term-ms = <150>;
+};
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
