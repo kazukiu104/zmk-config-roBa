@@ -161,10 +161,10 @@
 
         TRENCH {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans     &trans     &trans     &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(C)  &kp LC(X)  &kp LC(V)  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans                          &trans
             >;
 
             label = "トレンチ";
