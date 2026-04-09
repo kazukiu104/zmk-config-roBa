@@ -117,10 +117,10 @@
 
         SUNLIT {
             bindings = <
-&trans          &kp UP_ARROW    &trans           &trans  &trans                                        &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans      &kp KP_LEFT_PARENTHESIS   &kp KP_NUMLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER
-&trans          &trans          &trans           &trans  &trans  &trans      &kp KP_RIGHT_PARENTHESIS  &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS
-&trans          &trans          &trans           &trans  &trans  &trans      &kp KP_NUMBER_0           &kp PERIOD                                                          &kp KP_EQUAL
+&trans          &kp UP_ARROW    &trans           &trans            &kp SEMICOLON                                        &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(KP_PLUS)   &kp COLON      &trans      &kp KP_LEFT_PARENTHESIS   &kp KP_NUMLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER
+&trans          &trans          &trans           &kp LC(KP_MINUS)  &kp SLASH      &trans      &kp KP_RIGHT_PARENTHESIS  &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS
+&trans          &trans          &trans           &trans            &trans         &trans      &kp KP_NUMBER_0           &kp PERIOD                                                          &kp KP_EQUAL
             >;
 
             label = "サンリット";
@@ -128,10 +128,10 @@
 
         TWILIGHT {
             bindings = <
-&trans              &kp LG(UP_ARROW)    &trans               &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans              &trans              &trans               &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans              &trans              &trans               &trans  &trans  &trans      &trans  &trans                          &trans
+&trans              &kp LG(UP_ARROW)    &trans               &trans  &trans                      &trans  &kp F9  &kp F10  &kp F11  &kp F12
+&kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans  &trans  &trans      &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
+&trans              &trans              &trans               &trans  &trans  &trans      &trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4
+&trans              &trans              &trans               &trans  &trans  &trans      &trans  &trans                            &trans
             >;
 
             label = "トワイライト";
