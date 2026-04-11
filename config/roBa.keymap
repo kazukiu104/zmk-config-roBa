@@ -129,7 +129,7 @@
         SUNLIT {
             bindings = <
 &trans          &kp UP_ARROW    &trans           &kp LEFT_BRACKET  &kp SEMICOLON                                 &kp KP_NUMLOCK  &kp N7        &kp N8        &kp NUMBER_9  &kp MINUS
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(COLON)      &kp COLON      &trans      &kp DOUBLE_QUOTES  &kp PERIOD      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(KP_PLUS)   &kp COLON      &trans      &kp DOUBLE_QUOTES  &kp PERIOD      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
 &trans          &trans          &trans           &kp LC(MINUS)     &kp SLASH      &trans      &kp SLASH          &kp NUMBER_0    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON
 &trans          &trans          &trans           &trans            &trans         &trans      &mkp MB4           &mkp MB5                                                  &kp EQUAL
             >;
