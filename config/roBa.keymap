@@ -112,15 +112,15 @@
     };
 // ホールドしたらレイヤー2、タップはマウスボタン2
     behaviors {
-    layer2_or_mb2: layer2_or_mb2 {
+        layer2_or_mb2: layer2_or_mb2 {
         compatible = "zmk,behavior-hold-tap";
         label = "LAYER2_OR_MB2";
         #binding-cells = <0>;
         flavor = "balanced";
         tapping-term-ms = <200>;
         bindings = <&mo 2>, <&mkp MB2>;
+        };
     };
-};
 
     keymap {
         compatible = "zmk,keymap";
