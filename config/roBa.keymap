@@ -111,23 +111,6 @@
         };
     };
 
-// mb2レイヤー
-behaviors {
-
-    mb2: mb2 {
-        compatible = "zmk,behavior-mouse-key-press";
-        #binding-cells = <1>;
-    };
-
-    layer2_or_mb2: layer2_or_mb2 {
-        compatible = "zmk,behavior-hold-tap";
-        #binding-cells = <0>;
-        flavor = "balanced";
-        tapping-term-ms = <200>;
-        bindings = <&mo 2 &mb2 MB2>;
-    };
-};
-
     keymap {
         compatible = "zmk,keymap";
 
