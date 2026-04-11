@@ -110,6 +110,17 @@
             tapping-term-ms = <200>;
         };
     };
+// ホールドしたらレイヤー2、タップはマウスボタン2
+    behaviors {
+    layer2_or_mb2: layer2_or_mb2 {
+        compatible = "zmk,behavior-hold-tap";
+        label = "LAYER2_OR_MB2";
+        #binding-cells = <0>;
+        flavor = "balanced";
+        tapping-term-ms = <200>;
+        bindings = <&mo 2>, <&mkp MB2>;
+    };
+};
 
     keymap {
         compatible = "zmk,keymap";
@@ -119,7 +130,7 @@
 &kp Q             &kp W         &kp E         &kp R        &kp T                                               &kp Y     &kp U               &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F        &kp G     &kp LS(LG(S))              &kp BACKSPACE  &kp H     &lt_to_layer_0 5 J  &kp K      &kp L    &kp ENTER
 &kp Z             &kp X         &kp C         &kp V        &kp B     &kp TAB                    &kp DELETE     &kp N     &kp M               &kp COMMA  &kp DOT  &kp MINUS
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp GRAVE  &lt 1 SPACE  &mkp MB1  &mt LEFT_SHIFT ESCAPE      &mkp MB1       &mkp MB2                                          &kp CLCK
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp GRAVE  &lt 1 SPACE  &mkp MB1  &mt LEFT_SHIFT ESCAPE      &mkp MB1       &layer2_or_mb2                                       &kp CLCK
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
