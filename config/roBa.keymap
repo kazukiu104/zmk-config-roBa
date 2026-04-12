@@ -126,7 +126,7 @@
         SURFACE {
             bindings = <
 &kp Q             &kp W         &kp E    &kp R        &kp T                                              &kp Y           &kp U               &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D    &kp F        &kp G     &kp LS(LG(S))             &kp BACKSPACE  &kp H           &lt_to_layer_0 5 J  &kp K      &kp L    &kp ENTER
+&kp A             &kp S         &kp D    &kp F        &kp G     &kp LS(LG(S))             &kp BACKSPACE  &kp H           &lt_to_layer_0 4 J  &kp K      &kp L    &kp ENTER
 &kp Z             &kp X         &kp C    &kp V        &kp B     &kp ESCAPE                &kp DELETE     &kp N           &kp M               &kp COMMA  &kp DOT  &kp MINUS
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp TAB  &lt 1 SPACE  &mkp MB1  &mt LEFT_SHIFT GRAVE      &mkp MB1       &lt2_mb2 2 MB2                                          &kp CLCK
             >;
@@ -168,23 +168,12 @@
             label = "ミッドナイト";
         };
 
-        ABYSS {
-            bindings = <
-&trans  &trans  &trans  &trans    &trans                          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans    &trans    &trans        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans    &trans    &trans        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &mkp MB2  &mkp MB1  &mkp MB3      &trans  &trans                          &trans
-            >;
-
-            label = "アビス";
-        };
-
         TRENCH {
             bindings = <
-&trans  &trans     &trans     &trans     &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(C)  &kp LC(X)  &kp LC(V)  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
             label = "トレンチ";
