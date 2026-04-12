@@ -63,19 +63,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Bluetooth0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <13 18>;
-        };
-
-        Bluetooth1 {
-            bindings = <&bt BT_SEL 1>;
-            key-positions = <13 19>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -134,10 +122,10 @@
 
         TWILIGHT {
             bindings = <
-&trans              &kp LG(UP_ARROW)    &trans               &trans  &trans                      &trans  &kp F9  &kp F10  &kp F11  &kp F12
-&kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans  &trans  &trans      &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
-&trans              &trans              &trans               &trans  &trans  &trans      &trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4
-&trans              &trans              &trans               &trans  &trans  &trans      &trans  &trans                            &trans
+&trans              &kp LG(UP_ARROW)    &trans               &trans        &trans                                    &trans  &kp F9  &kp F10  &kp F11  &kp F12
+&kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &trans        &trans        &bt BT_CLR_ALL      &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
+&trans              &trans              &trans               &trans        &trans        &trans              &trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4
+&trans              &trans              &trans               &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2        &trans  &trans                            &trans
             >;
 
             label = "トワイライト";
