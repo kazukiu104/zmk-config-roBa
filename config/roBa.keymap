@@ -118,7 +118,6 @@
             >;
 
             label = "サンリット";
-            sensor-bindings = <&inc_dec_kp LC(C_AC_SCROLL_UP) LC(C_AC_SCROLL_DOWN)>;
         };
 
         TWILIGHT {
@@ -145,10 +144,10 @@
 
         ABYSS {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp RIGHT_CONTROL  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans             &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                     &trans
             >;
 
             label = "アビス";
