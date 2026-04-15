@@ -32,7 +32,7 @@
 // Layer Tapの定義
 &lt {
     flavor = "balanced";
-    tapping-term-ms = <200>;　// tapping-term-ms: タップとホールドの判定時間（ms）
+    tapping-term-ms = <200>; // tapping-term-ms: タップとホールドの判定時間（ms）
 };
 
 // Mod Tapの定義
