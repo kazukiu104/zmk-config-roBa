@@ -91,7 +91,6 @@
         flavor = "balanced";
         bindings = <&mo>, <&mkp>;
         };
-    };
 
     keymap {
         compatible = "zmk,keymap";
