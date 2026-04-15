@@ -34,7 +34,7 @@
 // Layer Tapの定義
 
 &lt {
-    flavor = "balanced";
+    flavor = "tap-preffered";
     tapping-term-ms = <200>; // tapping-term-ms: タップとホールドの判定時間（ms）
 };
 
