@@ -1,5 +1,4 @@
 // OS設定を日本語キーボードのまま使用するための変換定義
-
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -83,15 +82,16 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-    lt2_mb2: lt2_mb2 {
-        compatible = "zmk,behavior-hold-tap";
-        label = "LT2_MB2";
-        c#binding-cells = <2>;
-        tapping-term-ms = <200>;
-        flavor = "balanced";
-        bindings = <&mo>, <&mkp>;
-        };
 
+        lt2_mb2: lt2_mb2 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT2_MB2";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&mo>, <&mkp>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
 
