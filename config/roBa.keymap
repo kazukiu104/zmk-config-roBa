@@ -81,8 +81,21 @@
             flavor = "tap-preferred";
             bindings = <&mo>, <&mkp>;
         };
-    };
 
+        // モッドタップ: ホールド=シフト、タップ=マウスボタン
+        // &mt はキーコード同士のみ対応のため、tap側に &mkp を使う場合は
+        // zmk,behavior-hold-tap でカスタム定義が必要
+
+        mt_shift_mkp: mt_shift_mkp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_SHIFT_MKP";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            quick-tap-ms = <0>;
+            bindings = <&kp>, <&mkp>;
+        };
+    };
     // キーマップの定義
 
     keymap {
