@@ -50,14 +50,7 @@
 &trackball { scroll-layers = <4>; };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Tab {
-            bindings = <&kp TAB>;
-            key-positions = <13 18>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
