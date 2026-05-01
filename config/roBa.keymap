@@ -113,9 +113,9 @@
 
         TWILIGHT {
             bindings = <
-&trans              &kp LG(UP_ARROW)    &kp LG(TAB)          &trans       &kp LC(PAGE_UP)                              &trans  &kp F7     &kp LC(F)  &kp LC(A)  &trans
-&kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LA(TAB)  &kp LC(PAGE_DOWN)  &trans         &kp RC(Y)  &trans  &kp LC(S)  &kp F5     &kp F12    &kp LA(F4)
-&trans              &trans              &trans               &trans       &trans             &trans         &kp LC(Z)  &trans  &trans     &trans     &trans     &trans
+&trans              &kp LG(UP_ARROW)    &kp LG(TAB)          &trans       &trans                                       &trans  &kp F7     &kp LC(F)  &kp LC(A)  &trans
+&kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LA(TAB)  &kp LC(PAGE_UP)    &trans         &kp RC(Y)  &trans  &kp LC(S)  &kp F5     &kp F12    &kp LA(F4)
+&trans              &trans              &trans               &trans       &kp LC(PAGE_DOWN)  &trans         &kp LC(Z)  &trans  &trans     &trans     &trans     &trans
 &trans              &trans              &trans               &kp LC(C)    &kp LC(X)          &kp LC(V)      &trans     &trans                                   &trans
             >;
 
