@@ -71,12 +71,20 @@
             tapping-term-ms = <200>;
         };
 
-        email_kazuki: email_kazuki {
+        email_kazuki: email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <20>;
             tap-ms = <20>;
             bindings = <&kp K &kp A &kp Z &kp U &kp K &kp I &kp DOT &kp U &kp N1 &kp N0 &kp N4 &kp LEFT_BRACKET &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
+        };
+
+        Pass: Pass {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <20>;
+            tap-ms = <20>;
+            bindings = <&kp N9 &kp C &kp N8 &kp S &kp NUMBER_4 &kp X &kp R &kp P>;
         };
 
         // カスタムLayer-Tap: tap側に &mkp を使用したマウスクリック用
