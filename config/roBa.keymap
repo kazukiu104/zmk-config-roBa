@@ -104,7 +104,7 @@
             bindings = <
 &kp ASTRK       &kp UP_ARROW    &kp LEFT_PARENTHESIS  &kp F2    &kp SEMICOLON                                    &kp LEFT_BRACKET  &kp N7        &kp N8        &kp NUMBER_9  &kp PERIOD
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &kp HOME  &kp SINGLE_QUOTE  &trans      &kp DOUBLE_QUOTES  &kp KP_MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ENTER
-&trans          &trans          &trans                &kp END   &trans            &trans      &kp SLASH          &kp KP_PLUS       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
+&trans          &trans          &trans                &kp END   &kp LS(0x87)      &trans      &kp SLASH          &kp KP_PLUS       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0
 &trans          &trans          &trans                &trans    &trans            &trans      &mkp MB4           &mkp MB5                                                    &kp UNDER
             >;
 
