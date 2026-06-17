@@ -1,5 +1,4 @@
-layout: {zmk_keyboard: roBa}
-
+layout: {zmk_keyboard: Nex-D}
 layers:
   SURFACE:
     - Q
@@ -45,7 +44,6 @@ layers:
     - MB1
     - {t: MB2, h: TWILIGHT}
     - CAPS
-
   SUNLIT:
     - ASTRK
     - UP ARROW
@@ -90,7 +88,6 @@ layers:
     - MB4
     - MB5
     - UNDER
-
   TWILIGHT:
     - {t: ▽, type: trans}
     - Gui+UP ARROW
@@ -135,7 +132,6 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-
   MIDNIGHT:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
